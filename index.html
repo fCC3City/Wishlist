@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <title>Wishulistu</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Wishulistu">
+   <meta name="keywords" content="wishlist, lista życzeń, prezenty, gift, urodziny">
+   <meta name="author" content="freeCodeCamp">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="google-signin-client_id" content="875009600766-4haifp6lgpeg4l8r5fk99pkgmsu7uuh4.apps.googleusercontent.com">
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+    <!--[if lt IE 9]>
+      <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=276073835882";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<div class="login">
+<form action="login" id="login">
+  <input type="login" placeholder="Login...">
+  <input type="password" placeholder="Hasło...">
+</form>
+  <div class="buttons">
+    <button form="login">Zaloguj się</button>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
