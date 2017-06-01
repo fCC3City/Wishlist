@@ -1,16 +1,10 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body,
 html {
   margin: 0;
-  padding: 0;
-}
-
-/***********************
-CONTAINERS
-***********************/
+  padding: 0; }
 
 body {
   font-style: "Lato", sans-serif;
@@ -19,11 +13,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  align-content: center;
-}
+  align-content: center; }
 
 .login {
-  background: rgba(238,238,238,0.8);
+  background: rgba(238, 238, 238, 0.8);
   min-width: 500px;
   max-width: 600px;
   height: 300px;
@@ -31,16 +24,13 @@ body {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: 0 2px 5px 2px rgba(0,0,0,.1)
-}
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1); }
 
 .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
+  flex-direction: column; }
 
 input {
   height: 50px;
@@ -52,13 +42,7 @@ input {
   font-weight: 200;
   color: #333;
   border: none;
-  box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-
-}
-
-/***********************
-BUTTONS
-***********************/
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1); }
 
 button {
   width: 70%;
@@ -66,21 +50,12 @@ button {
   margin: 10px auto;
   font-style: "Lato", sans-serif;
   font-size: 1.05em;
-  background-color: rgba(242,242,242,1);
+  background-color: #f2f2f2;
   color: #333;
-  box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-  border: none;
-}
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  border: none; }
 
 button:active {
-  transform: translate(1px,1px);
-}
+  transform: translate(1px, 1px); }
 
-/***********************
-MEDIA QUERIES
-***********************/
-
-@media (min-width: 769px) {
-
-
-}
+/*# sourceMappingURL=app.css.map */
