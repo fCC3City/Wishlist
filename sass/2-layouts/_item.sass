@@ -1,0 +1,50 @@
+// Items containers
+
+#items
+  width: 90vw
+  +flex(flex, row, center, flex-start)
+  flex-wrap: wrap
+  overflow: scroll
+  &::-webkit-scrollbar
+    display: none
+
+.item
+  min-width: 400px
+  width: 400px
+  height: 200px
+  background-color: rgba(255,255,255,.5)
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.1)
+  margin: 35px
+  padding: 15px
+  position: relative
+
+.thumb
+  background-image: url("../assets/display.jpg")
+  background-size: contain
+  background-repeat: no-repeat
+  width: 90px
+  height: 90px
+  margin-right: 20px
+  margin-bottom: 10px
+  float: left
+
+.reserve
+  width: 80%
+  margin: 0 auto
+  height: 40px
+  background-color: $color5
+  display: block
+  margin: 10px auto
+  color: #fff
+  border: none
+  +font(normal, 300, 1em, $lato-font)
+
+.remove
+  width: 18px
+  height: auto
+  float: right
+
+
+.tags
+  text-align: right
+  +font(normal, 300, .8em, $lato-font)

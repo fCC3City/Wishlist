@@ -1,0 +1,48 @@
+navigation
+  top: 0
+  +flex(flex, row, space-between, center)
+  +bar($color5, 100vw, 55px, fixed)
+  box-shadow: 0 5px 15px 5px rgba(0,0,0,.1)
+
+
+#search
+  height: 60%
+  width: 70%
+  align-self: center
+  margin: 0 20px
+  +font(normal, 400, 1.0em, $lato-font)
+  padding-left: 10px
+
+.logo-div
+  width: 5%
+  margin-left: 50px
+  +flex(flex, row, center, center)
+.search-div
+  width: 50%
+  +flex(flex, row, center, center)
+.buttons-div
+  width: 20%
+  margin-right: 70px
+  +flex(flex, row, flex-end, center)
+
+.btnimg
+  width: 25px
+  height: auto
+
+#settings,
+#sort
+  margin: 0 10px
+
+.profilepic
+  border-radius: 50%
+  width: 35px
+  height: 35px
+  align-self: center
+  margin-left: 20px
+  &:hover
+    border: 2px solid rgba(255,255,255,.8)
+
+#logotype
+  align-self: center
+  height: 55px
+  width: auto
