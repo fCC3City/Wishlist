@@ -4,8 +4,8 @@ Próba postawienia Express.js na Node.js, kocham życie!
 
 ## TODO
 
-- [ ] .gitignore zawsze spoko.
-- [ ] Gdzie jest package.json?!
+- [x] .gitignore zawsze spoko.
+- [x] Gdzie jest package.json?!
 - [ ] server.js  
 - [ ] Camper powinien być w stanie bez problemowo uruchomić serwer według poniższej instukcji.  
 
