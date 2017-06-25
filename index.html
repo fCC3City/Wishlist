@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="google-signin-client_id" content="875009600766-4haifp6lgpeg4l8r5fk99pkgmsu7uuh4.apps.googleusercontent.com">
    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+   <link rel="stylesheet" type="text/css" href="css/app.css"/>
 
     <!--[if lt IE 9]>
       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -31,11 +31,11 @@
 
 <div class="login">
 <form action="login" id="login">
-  <input type="login" placeholder="Login...">
-  <input type="password" placeholder="Hasło...">
+  <input id="login" type="login" placeholder="Login...">
+  <input id="login" type="password" placeholder="Hasło...">
 </form>
   <div class="buttons">
-    <button form="login">Zaloguj się</button>
+    <button form="login" id="login">Zaloguj się</button>
     <div class="g-signin2" data-onsuccess="onSignIn"></div>
     <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
   </div>
