@@ -1,0 +1,78 @@
+*
+  box-sizing: border-box
+
+
+body,
+html
+  margin: 0
+  padding: 0
+
+
+
+// CONTAINERS
+
+
+body
+  font-style: $lato-font
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  align-content: center
+
+.login
+  background: rgba(238,238,238,0.8)
+  min-width: 500px
+  max-width: 600px
+  height: 300px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  border-radius: 10px
+  box-shadow: 0 2px 5px 2px rgba(0,0,0,.1)
+
+
+.buttons
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+
+#login
+  height: 50px
+  width: 70%
+  margin: 10px auto
+  display: block
+  padding-left: 15px
+  font-size: 1.3em
+  font-weight: 200
+  color: #333
+  border: none
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.1)
+
+
+
+// BUTTONS
+
+#login
+  width: 70%
+  height: 35px
+  margin: 10px auto
+  font-style: "Lato", sans-serif
+  font-size: 1.05em
+  background-color: rgba(242,242,242,1)
+  color: #333
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.1)
+  border: none
+
+button:active
+  transform: translate(1px,1px)
+
+
+
+// MEDIA QUERIES
+
+
+@media (min-width: 769px)
