@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fCC3City/Wishlist#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3"
   }
 }
