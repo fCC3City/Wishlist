@@ -6,6 +6,11 @@
 * Aplikacja będzie również przypominać znajomym o nadchodzących urodzinach użytkownika.  
 * Aplikacja powstaje na Vanilla JS od strony frontendu i Node od strony backendu.  
 
+## Instalacja
+1. `$ git clone` to repozytorium.
+2. `$ npm install` zainstaluje wszystkie potrzebne moduły z `package.json`
+3. `$ node server.js` uruchomi serwer na porcie `8080`
+4. W przeglądarce wejdź na [localhost:8080](http://localhost:8080)
 
 ### Jak korzystać z projektu na GitHub'ie
 
