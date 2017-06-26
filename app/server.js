@@ -1,16 +1,12 @@
 #!/usr/bin/env node
-var config = require('app/config');
+// TODO: znaleźć lepszy sposób na te ścieżki?
+// var config = require('app/config')
+var app = require('./index');
+var config = require('./config');
 
-// Load the http module
-var express = require('express');
 
-// Configure Express server
-var app = express();
 
 console.log('server process starting');
-
-// Configure where views are, (index.html, etc.)
-app.use('/', express.static(__dirname + '/'));
 
 // NOTE: https://github.com/focusaurus/express_code_structure/blob/master/app/server.js
 // Note that there's not much logic in this file.
