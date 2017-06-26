@@ -20,5 +20,6 @@
   "dependencies": {
     "express": "^4.15.3",
     "serve-static": "^1.12.3"
-  }
+  },
+  "devDependencies": {}
 }
