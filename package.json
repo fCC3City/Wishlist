@@ -1,10 +1,11 @@
 {
   "name": "wishlist",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Projektem jest aplikacja/serwis webowy, do której użytkownik dodaje przedmioty, które chciałby mieć. Ma się to odbywać na zasadzie wklejania linka np. z allegro, olx, skąpiec.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/fCC3City/Wishlist#readme",
   "dependencies": {
-    "express": "^4.15.3"
-  }
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3"
+  },
+  "devDependencies": {}
 }
