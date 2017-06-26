@@ -1,6 +1,6 @@
 {
   "name": "wishlist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Projektem jest aplikacja/serwis webowy, do której użytkownik dodaje przedmioty, które chciałby mieć. Ma się to odbywać na zasadzie wklejania linka np. z allegro, olx, skąpiec.",
   "main": "index.js",
   "scripts": {
