@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Load the http module
 var express = require('express');
 

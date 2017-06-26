@@ -4,7 +4,8 @@
   "description": "Projektem jest aplikacja/serwis webowy, do której użytkownik dodaje przedmioty, które chciałby mieć. Ma się to odbywać na zasadzie wklejania linka np. z allegro, olx, skąpiec.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"
   },
   "repository": {
     "type": "git",
